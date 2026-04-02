@@ -1,3 +1,31 @@
+# GettingStarted Sample - CheckBox (Xamarin.iOS)
+
+This repository contains a small Xamarin.iOS sample app demonstrating a custom CheckBox control and how to integrate it into a basic iOS application. The sample is intended for developers who want a practical starting point to learn how to implement, style, and handle checkbox interactions in Xamarin.iOS using C# and Xamarin's UI patterns.
+
+## Overview
+
+- Purpose: Provide a simple, fully-documented example of a CheckBox control in a Xamarin.iOS app.
+- Target audience: Mobile developers familiar with C# and Xamarin who want a lightweight example to adapt into their projects.
+
+## Features
+
+- Custom `CheckBox` control with toggled state and accessibility labels.
+- Example usage in a sample form with state persistence (in-memory for demo).
+- Basic UI layout using Auto Layout constraints and programmatic views.
+
+## Build & Run
+
+1. Open the solution in Visual Studio 2026.
+2. Restore NuGet packages: `Restore NuGet Packages` from the solution explorer or run `nuget restore`.
+3. Select an iOS simulator or device and choose `Build` → `Run`.
+
+On Windows, you will need a Mac build host connected to deploy to an iOS simulator or device.
+
+## Project Structure
+
+- `AppDelegate.cs` — Application lifecycle and initial window/controller setup.
+- `MainViewController.cs` — Demonstrates the `CheckBox` usage in a sample UI.
+- `Controls/CheckBox.cs` — Implementation of the custom checkbox control including state management and public events.
 
 # Adding SfCheckBox reference
 You can add SfCheckBox reference using one of the following methods:
